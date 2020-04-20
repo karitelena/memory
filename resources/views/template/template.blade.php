@@ -14,12 +14,24 @@
     <div class="container">
         <!-- header -->
         <div class="nav">
-            <nav class="dropdown">
+        <nav class="dropdown">
                 <button id="start-bt"> Start </button>
                 <div class="dropdown-content">
-                    <a href="/photos">Photos</a>
-                    <a href="#">Music</a>
-                    <a href="#">Documents</a>
+                    <div class="photoDropdown">
+                        <a href="/photos">Photos</a>
+                            <div class="photoDropdown-content">
+                                <a href="">Teste Photo 1</a>
+                                <a href="">Teste Photo 1</a>           
+                            </div>
+                    </div>
+                    <div class="musicDropdown">
+                        <a href="#">Music</a>
+                            <div class="musicDropdown-content">
+                                <a href="">Teste Music1</a>
+                                <a href="">Teste Music1</a>           
+                            </div>
+                    </div>
+                    <a href="/documents">Documents</a>
                     <a href="/">Home</a>
                 </div>
             </nav>

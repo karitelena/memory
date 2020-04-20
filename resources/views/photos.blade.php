@@ -12,7 +12,7 @@
 </div>
     <!-- galeria -->
 <div class="gallery">
-    <div class="row">
+    <div class="rowGallery">
         <div class="card_img">
             <img src="{{ asset('/img/aniverfelipe.JPG') }}" class="small_img">
         </div>
@@ -23,7 +23,7 @@
             <img src="{{ asset('/img/meuquarto.JPG') }}" class="small_img">
         </div>
     </div>
-    <div class="row">
+    <div class="rowGallery">
         <div class="card_img">
             <img src="{{ asset('/img/feira.JPG') }}" class="small_img">
         </div>

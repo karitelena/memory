@@ -18,3 +18,7 @@
 Route::get('/', 'SiteController@index');
 
 Route::get('/photos', 'SiteController@photos');
+
+Route::get('/documents', 'SiteController@documents');
+
+Route::get('/arts', 'SiteController@arts');

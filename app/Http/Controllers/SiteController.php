@@ -13,4 +13,12 @@ class SiteController extends Controller
     public function photos () {
         return view ('photos');
     }
+
+    public function documents () {
+        return view ('documents');
+    }
+
+    public function arts () {
+        return view ('arts');
+    }
 }
